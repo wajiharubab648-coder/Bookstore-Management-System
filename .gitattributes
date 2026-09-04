@@ -1,3 +1,5 @@
-*.tex linguist-detectable=false
+# Exclude TeX and force Python language override
 *.tex linguist-vendored
+*.tex linguist-detectable=false
+*.py linguist-language=Python
 *.py linguist-detectable=true
