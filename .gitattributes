@@ -1,12 +1,9 @@
-# Force-ignore all LaTeX/TeX files
-*.tex linguist-vendored
-*.aux linguist-vendored
-*.log linguist-vendored
-*.toc linguist-vendored
-*.pdf linguist-vendored
-*.tex linguist-detectable=false
+# Vendor everything in the repo by default
+* linguist-vendored
 
-# Override primary language to Python
-*.py linguist-language=Python
+# Exclusively detect Python files
+*.py linguist-vendored=false
 *.py linguist-detectable=true
+*.py linguist-language=Python
+
 
