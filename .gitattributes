@@ -1,5 +1,12 @@
-# Exclude TeX and force Python language override
+# Force-ignore all LaTeX/TeX files
 *.tex linguist-vendored
+*.aux linguist-vendored
+*.log linguist-vendored
+*.toc linguist-vendored
+*.pdf linguist-vendored
 *.tex linguist-detectable=false
+
+# Override primary language to Python
 *.py linguist-language=Python
 *.py linguist-detectable=true
+
